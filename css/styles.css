@@ -59,9 +59,68 @@ h3 {
 img {
   max-width: 100%;
   display: block;
+  height: auto;
 }
 
 /**Utilities**/
 .text-center {
   text-align: center;
+}
+/**Gradient**/
+.green-gradient {
+  color: transparent;
+  background: linear-gradient(
+    to right,
+    var(--primaryColor) 0%,
+    var(--secondaryColor) 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+/**Header**/
+.header {
+  background-color: var(--black);
+  padding: calc(var(--separation) * 3) 0;
+  color: var(--white);
+}
+@media (min-width: 768px) {
+  .header-content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+.header-text {
+  text-align: center;
+  padding-top: var(--separation);
+}
+@media (min-width: 768px) {
+  .header-text {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0;
+  }
+}
+.header-text p {
+  margin: 0;
+}
+.tagline-product {
+  font-size: 3rem;
+  font-weight: 900;
+}
+.product-name {
+  font-size: 6rem;
+}
+@media (min-width: 768px) {
+  .product-name {
+    margin: 0;
+    font-size: 10rem;
+    line-height: 1;
+  }
+}
+
+.product-price span {
+  font-size: 6rem;
+  font-weight: 900;
 }

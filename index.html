@@ -13,6 +13,40 @@
         <link rel="stylesheet" href="css/styles.css">
     </head>
     <body>
+        <header class="header">
+            <div class="container header-content">
+                <div class="img-header">
+                    <picture>
+                        <source
+                            sizes="1920w"
+                            srcset="img/header.avif 1920w"
+                            type="image/avif">
+                        <source
+                            sizes="1920w"
+                            srcset="img/header.webp 1920w"
+                            type="image/webp">
+                        <source
+                            sizes="1920w"
+                            srcset="img/header.jpg 1920w"
+                            type="image/jpeg">
+                        <img loading="lazy" decoding="async"
+                            src="img/header.jpg" lazyalt="header" width="1000"
+                            height="500">
+                    </picture>
+                </div> <!---img-header-->
+                <div class="header-text">
+                    <p class="tagline-product">Professional Sound</p>
+                    <h1 class="product-name green-gradient">TechPRO </h1>
+                    <p class="product-description">Lorem, ipsum dolor sit amet
+                        consectetur adipisicing elit. Commodi, asperiores harum
+                        error dicta dolor numquam repellat assumenda tempora
+                        dolorem totam reiciendis, voluptatum eligendi ducimus ea
+                        itaque fugit. Assumenda, deleniti rerum.</p>
+                    <p class="product-price">From <span>$299</span></p>
+                </div>
+
+            </div><!--container header-content-->
+        </header>
 
     </body>
 </html>
