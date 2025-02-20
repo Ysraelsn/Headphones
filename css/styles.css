@@ -164,7 +164,7 @@ img {
       transparent 50%,
       var(--primaryColor) 0%
     ),
-    url(../img/imagen-mujer.jpg);
+    url(../img/imagen-mujer.webp);
   background-position: right;
   background-repeat: repeat, no-repeat;
   background-size: 100%, cover;
@@ -176,7 +176,7 @@ img {
         transparent 50%,
         var(--primaryColor) 0%
       ),
-      url(../img/imagen-mujer.jpg);
+      url(../img/imagen-mujer.webp);
   }
 }
 .about-tech-grid {
@@ -296,7 +296,7 @@ img {
 
 .newsletter {
   background-image: linear-gradient(to bottom, transparent 50%, var(--white) 0%),
-    url(../img/newsletter.jpg);
+    url(../img/newsletter.webp);
   background-position: top center;
   background-repeat: no-repeat;
   background-size: 100%, 70rem;
@@ -310,7 +310,7 @@ img {
         transparent 50%,
         var(--white) 0%
       ),
-      url(../img/newsletter.jpg);
+      url(../img/newsletter.webp);
     background-position: center, -20rem 0rem;
     background-size: 100%, 100rem;
     padding: 10rem 0;
